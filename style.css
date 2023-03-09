@@ -77,3 +77,36 @@ footer{
     background-color: #222222;
     height: 100px;
 }
+
+#ScatolaFooter{
+    height: 100px;
+}
+
+.iconSize{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#leftIcons{
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.position{
+    position: relative;
+    width: 100px;
+}
+
+#freccia1{
+    position: absolute;
+    top: 22px;
+    right: 32px;
+}
+
+#freccia2{
+    position: absolute;
+    top: 22px;
+    right: 0;
+}
