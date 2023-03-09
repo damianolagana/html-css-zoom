@@ -13,6 +13,7 @@ button{
     background-color: #4a4a4a;
     padding: 5px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .flex{
@@ -37,4 +38,42 @@ header{
 
 .buttonContainer{
     margin-top: 5px;
+}
+
+/* MAIN */
+
+main{
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 200px);
+}
+
+#ScatolaMain{
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    height: calc(100vh - 200px);
+    padding-bottom: 13px;
+
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    padding-right: 5px;
+
+}
+
+.Scatolaimg{
+    width: calc(100%/7 - 1em);
+    height: 135px
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #222222;
+    height: 100px;
 }
