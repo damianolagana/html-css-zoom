@@ -80,18 +80,22 @@ footer{
 
 #ScatolaFooter{
     height: 100px;
+    justify-content: space-between;
 }
 
 .iconSize{
     font-size: 30px;
     padding-bottom: 10px;
+}
+
+.paddingLeft{
     padding-left: 10px;
 }
 
 #leftIcons{
     width: 200px;
-    justify-content: space-around;
     align-items: center;
+    margin-left: 20px;
 }
 
 .position{
@@ -109,4 +113,17 @@ footer{
     position: absolute;
     top: 22px;
     right: 0;
+}
+
+#middleIcons{
+    align-items: center;
+}
+
+.IconAlign{
+    align-items: center;
+    flex-direction: column;
+}
+
+#shareIcon{
+    color: green;
 }
