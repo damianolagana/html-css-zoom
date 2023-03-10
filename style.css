@@ -67,7 +67,9 @@ img{
 
 .Scatolaimg{
     width: calc(100%/7 - 1em);
-    height: 135px
+    height: 135px;
+    position: relative;
+    
 }
 
 
@@ -135,4 +137,11 @@ footer{
     align-items: center;
     justify-content: center;
     color: red;
+}
+
+.Micimg{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(109, 107, 107, 0.6);
+    padding: 5px;
 }
